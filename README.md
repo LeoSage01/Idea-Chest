@@ -1,3 +1,3 @@
 # Idea-Chest
 
-A web-based Idea Journal 
+Fullstack MERN Idea Journal Application.
