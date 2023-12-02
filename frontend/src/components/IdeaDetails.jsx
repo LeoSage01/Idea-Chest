@@ -12,7 +12,7 @@ const IdeaDetails = ({ idea }) => {
     if (!user) {
       return
     }
-    const response = await fetch('http://localhost:4000/api/ideas/' + idea._id, {
+    const response = await fetch('https://idea-chest-api.onrender.com/api/ideas/' + idea._id, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${user.token}`
