@@ -20,7 +20,7 @@ const IdeaForm = () => {
 
     const idea = {title, note}
 
-    const response = await fetch('http://localhost:4000/api/ideas', {
+    const response = await fetch('https://idea-chest-api.onrender.com/api/ideas', {
       method: 'POST',
       body: JSON.stringify(idea),
       headers: {
